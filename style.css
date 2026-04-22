@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+}
+.btn{
+    height:200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 1.5rem;
+
+}
+.btn-container{
+    display:flex;
+    justify-content: center;
+}
+.yellow{
+    background-color: #ffb067;
+}
+.red{
+    background-color: #df205a;
+}
+.green{
+    background-color: #3dadd0;
+}
+.purple{
+    background-color: rebeccapurple;
+}
