@@ -7,19 +7,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Simon Says Game </h1>
-    <h2>Press any key to start the game</h2>
-
-    <div class="btn-container">
-        <div class="Line-one">
-            <div class="btn red" type="button">1</div>
-            <div class="btn yellow" type="button" >2</div>
-        </div>
-        <div class="line-two">
-            <div class="btn green" type="button">3</div>
-            <div class="btn purple" type="button">4</div>
-        </div>
+      <div class="game-container">
+        <h1 class="game-title"> SIMON SAYS</h1>
         
+        <div class="game-info">
+            <div>Level: <span id="level">1</span></div>
+            <div>Score: <span id="score">0</span></div>
+        </div>
+
+        <div class="game-board" id="gameBoard">
+            <button class="tile tile-0" data-tile="0"></button>
+            <button class="tile tile-1" data-tile="1"></button>
+            <button class="tile tile-2" data-tile="2"></button>
+            <button class="tile tile-3" data-tile="3"></button>
+        </div>
+
+        <div class="status" id="status">Click START to begin!</div>
+
+        <div class="game-controls">
+            <button class="btn" id="startBtn">START</button>
+            <button class="btn" id="resetBtn">RESET</button>
+        </div>
     </div>
     <script src="app.js"></script>
 </body>
